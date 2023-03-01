@@ -8,16 +8,17 @@
 - username
 - email
 - address
-- List of products
+- List of drinks
 - List of orders
 
 ### Drinks:
 
+- id
 - name
 - brand
 - description
 - price
-- productStock
+- stock
 
 ### Orders
 
@@ -39,6 +40,7 @@
 - Load drink data
 - Modify price
 - Set isAvailable
+- Unset isAvailable
 - Add new drink
 
 ### Orders
