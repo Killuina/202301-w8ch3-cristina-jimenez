@@ -8,16 +8,17 @@
 - username
 - email
 - address
-- List of products
+- List of drinks
 - List of orders
 
 ### Drinks:
 
+- id
 - name
 - brand
 - description
 - price
-- productStock
+- stock
 
 ### Orders
 

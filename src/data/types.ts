@@ -17,7 +17,7 @@ export interface Drink {
   brand: string;
   description: string;
   price: number;
-  stock: number;
+  isAvailable: boolean;
 }
 
 export type Drinks = Drink[];
@@ -26,8 +26,8 @@ export interface Client {
   email: string;
   username: string;
   address: string;
-  drinks: Drinks;
-  orders: Orders;
+  drinks: number[];
+  orders: number[];
   token: string;
 }
 
