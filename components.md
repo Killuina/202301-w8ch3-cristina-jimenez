@@ -39,6 +39,7 @@
 - Load drink data
 - Modify price
 - Set isAvailable
+- Unset isAvailable
 - Add new drink
 
 ### Orders

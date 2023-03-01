@@ -12,6 +12,7 @@ export interface Order {
 export type Orders = Order[];
 
 export interface Drink {
+  id: number;
   name: string;
   brand: string;
   description: string;

@@ -1,8 +1,8 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
-import { useReducer } from "react";
+import { clientReducer } from "./features/clientSlice/clientSlice";
 
 export const store = configureStore({
-  reducer: { user: useReducer },
+  reducer: { client: clientReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;
