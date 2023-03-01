@@ -10,7 +10,6 @@
 - address
 - List of products
 - List of orders
-- isAvailable
 
 ### Drinks:
 
@@ -41,9 +40,9 @@
 - Modify price
 - Set isAvailable
 - Add new drink
--
 
 ### Orders
 
+- Load order
 - Add order to order list
 - Set order status
