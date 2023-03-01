@@ -22,12 +22,16 @@ export interface Drink {
 export type Drinks = Drink[];
 
 export interface Client {
-  isLogged: boolean;
+  email: string;
   username: string;
   address: string;
   drinks: Drinks;
   orders: Orders;
   token: string;
+}
+
+export interface ClientState extends Client {
+  isLogged: boolean;
 }
 
 export type Clients = Client[];
